@@ -35,9 +35,18 @@
   color: white;
   background-color:var(--SideMenueBgColor);
 }
+.activeMenu{
+  font-size: 15px;
+}
 .activeMenu :hover {
  color: red;
- max-zoom: 20px;
+ background-color: rgba(245, 245, 243, 0.1);
+}
+.menuItemHeader{
+  font-size: 0px;
+}
+.menuItem{
+  font-size: 15px;
 }
 a{
   text-decoration: none;
@@ -49,7 +58,7 @@ a{
   padding: 0px;
 }
 .accordion-button{
-  padding: 4%;
+  padding: 5%;
   background-color: brown;
 }
 hr{
@@ -73,6 +82,9 @@ padding-left: 5px;
 }
 button.accordion-button.collapsed::after{
   background-color: var(--textColor,0.2);
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
   
 }
 .dark-box{

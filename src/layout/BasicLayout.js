@@ -12,7 +12,7 @@ function BasicLayout() {
     <>
       <Container fluid className="margin-0 containerr">
         <Row className="Roww">
-          <Col className="d-none d-md-block sideMenuColor col-2">
+          <Col className="d-none d-md-block  col-lg-2 col-md-3 sideMenuColor">
             <div className="mt-3 d-flex justify-content-center">
               <img
                 className="align-center"
