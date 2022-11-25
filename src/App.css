@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @media (max-width: 700px) 
 {
@@ -66,3 +67,10 @@
 .click:hover {
   opacity: 0.3;
 }
+=======
+.App {
+  margin: -5px;
+  padding: 0;
+  height: 100vh;
+}
+>>>>>>> 05ae82897139daeedf50f16d125aef5add7a8f51

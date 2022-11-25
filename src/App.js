@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import { Container,Row,Col, NavLink } from 'react-bootstrap';
@@ -245,6 +246,19 @@ function App() {
   </Container>
   </div>
   );
+=======
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BasicLayout from "./layout/BasicLayout";
+// import RemitterPage from "./pages/DMT/Remitter/RemitterPage";
+
+
+function App() {
+  return <div className="App">
+    <BasicLayout />
+    {/* <RemitterPage /> */}
+  </div>
+>>>>>>> 05ae82897139daeedf50f16d125aef5add7a8f51
 }
 
 export default App;
